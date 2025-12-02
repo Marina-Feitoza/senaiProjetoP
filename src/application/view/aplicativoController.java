@@ -64,6 +64,11 @@ public class aplicativoController {
     private void abrirIdade() {
     	carregarTela("idade.fxml");
     }
+    
+    @FXML
+    private void abrirLed() {
+    	carregarTela("led.fxml");
+    }
     @FXML
     public static void voltar(Button btnVoltar) {
     	try {
