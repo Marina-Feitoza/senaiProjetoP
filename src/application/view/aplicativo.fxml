@@ -14,69 +14,40 @@
             <Image url="@../../../../../../../Downloads/plano_fundo_p.png" />
          </image>
       </ImageView>
+
       <Button layoutX="68.0" layoutY="84.0" mnemonicParsing="false" onAction="#abrirCalculadora" prefHeight="25.0" prefWidth="225.0" text="Calculadora">
-         <font>
-            <Font size="18.0" />
-         </font>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
+         <font><Font size="18.0" /></font>
+         <cursor><Cursor fx:constant="HAND" /></cursor>
       </Button>
+
       <Button layoutX="68.0" layoutY="136.0" mnemonicParsing="false" onAction="#abrirCalculadoraIMC" prefHeight="25.0" prefWidth="225.0" text="Calculadora de IMC">
-         <font>
-            <Font size="18.0" />
-         </font>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
+         <font><Font size="18.0" /></font>
+         <cursor><Cursor fx:constant="HAND" /></cursor>
       </Button>
+
       <Button layoutX="68.0" layoutY="185.0" mnemonicParsing="false" onAction="#abrirGame" prefHeight="25.0" prefWidth="225.0" text="Jogo">
-         <font>
-            <Font size="18.0" />
-         </font>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
+         <font><Font size="18.0" /></font>
+         <cursor><Cursor fx:constant="HAND" /></cursor>
       </Button>
+
       <Button layoutX="68.0" layoutY="235.0" mnemonicParsing="false" onAction="#abrirTiro" prefHeight="25.0" prefWidth="225.0" text="Jogo Tiro">
-         <font>
-            <Font size="18.0" />
-         </font>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
+         <font><Font size="18.0" /></font>
+         <cursor><Cursor fx:constant="HAND" /></cursor>
       </Button>
+
       <Button layoutX="68.0" layoutY="286.0" mnemonicParsing="false" onAction="#abrirMedia" prefHeight="25.0" prefWidth="225.0" text="Calcular Media">
-         <font>
-            <Font size="18.0" />
-         </font>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
+         <font><Font size="18.0" /></font>
+         <cursor><Cursor fx:constant="HAND" /></cursor>
       </Button>
+
       <Button layoutX="68.0" layoutY="335.0" mnemonicParsing="false" onAction="#abrirIdade" prefHeight="25.0" prefWidth="225.0" text="Calcular Idade">
-         <font>
-            <Font size="18.0" />
-         </font>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
+         <font><Font size="18.0" /></font>
+         <cursor><Cursor fx:constant="HAND" /></cursor>
       </Button>
-      <Button layoutX="68.0" layoutY="383.0" mnemonicParsing="false" onAction="#abrirCarro" prefHeight="25.0" prefWidth="225.0" text="Carros">
-         <font>
-            <Font size="18.0" />
-         </font>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
-      </Button>
+
       <Button fx:id="btnLED" layoutX="68.0" layoutY="434.0" mnemonicParsing="false" onAction="#abrirLed" prefHeight="25.0" prefWidth="225.0" text="LED">
-         <font>
-            <Font size="18.0" />
-         </font>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
+         <font><Font size="18.0" /></font>
+         <cursor><Cursor fx:constant="HAND" /></cursor>
       </Button>
    </children>
 </AnchorPane>
